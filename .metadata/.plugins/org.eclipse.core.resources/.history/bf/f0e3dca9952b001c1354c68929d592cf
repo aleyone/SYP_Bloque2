@@ -1,0 +1,16 @@
+package es.sypbl2.ac1;
+
+public class Actividad1 {
+
+	public static void main(String[] args) {
+//		Realiza un programa en Java que dados dos números enteros, 
+//		devuelva por pantalla la suma de todos los números que hay entre ellos 
+//		(incluyéndolos).
+		int procesos=2;
+		int parcial1, parcial2;
+		
+		parcial1 = s2 / procesos;
+
+	}
+
+}

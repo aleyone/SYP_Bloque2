@@ -1,0 +1,16 @@
+package es.sypbl2.ac1;
+
+public class Sumador  {
+	int total=0;
+	
+	
+	
+
+	public int Suma (int s1, int s2) {
+		for (int i=s1; s1<=s2; i++) {
+			total=total+i;
+		}		
+		
+		return total;
+	}
+}

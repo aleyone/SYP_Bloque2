@@ -1,0 +1,17 @@
+package es.sypbl2.ac1;
+
+public class Sumador  {
+
+	public int Suma (int s1, int s2) {
+		int total=0;
+		int ss1 = s1;
+		int ss2 = s2;
+		while (s1<s2) {
+			total=total+1;
+			System.out.println(total);
+		}
+				
+		return total;
+	}
+
+}
