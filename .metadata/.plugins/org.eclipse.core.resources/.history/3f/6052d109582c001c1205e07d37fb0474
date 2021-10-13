@@ -4,10 +4,6 @@ import java.util.Scanner;
 
 public class Actividad1 {
 
-	/**
-	 * asignamos valores por argumentos o parámetros
-	 * @param args si hay tres args validamos que nos sirvan, sino se pedirán por parámetro
-	 */
 	public static void main(String[] args) {
 		int procesos, s1, s2, parcial, parcial2;
 		int total = 0;
@@ -28,9 +24,6 @@ public class Actividad1 {
 		parcial = s2 / procesos;
 		Sumador suma = new Sumador();
 
-		/**
-		 * lanzamos tantos procesos como se haya indicado
-		 */
 		for (int i = 1; i <= procesos; i++) {
 			parcial2 = parcial * i;
 			total += suma.Suma(s1, parcial2);
