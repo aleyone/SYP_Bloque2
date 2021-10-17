@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;SYP-BL2-AC2&apos;&#x0D;&#x0A;- Original project: &apos;SYP-BL2-AC2&apos;&#x0D;&#x0A;- Original element: &apos;src.es.sypbl2.ac2.Actividad2.java&apos;" description="Delete element" element1="/&lt;src.es.sypbl2.ac2{Actividad2.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1634152477652" subPackages="false" version="1.0"/>
+</session>
