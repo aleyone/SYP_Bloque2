@@ -26,21 +26,28 @@ public class Actividad1 {
 		}
 
 		parcial = s2 / procesos;
-		Sumador suma = new Sumador();
+		//Sumador suma = new Sumador();
 
 		/**
 		 * lanzamos tantos procesos como se haya indicado
 		 */
 		for (int i = 1; i <= procesos; i++) {
 			parcial2 = parcial * i;
-			total += suma.Suma(s1, parcial2);
-			System.out.println("Suma parcial " + i + ": " + suma.Suma(s1, parcial2));
+			total += Suma(s1, parcial2);
+			System.out.println("Suma parcial " + i + ": " + Suma(s1, parcial2));
 			s1 = parcial2 + 1;
 
 		}
 		System.out.println("Total: " + total);
 		teclado.close();
 
+	}
+	public static int Suma (int n1, int n2) {
+		int suma=0;
+		for (int i=n1; i<=n2; i++) {
+			suma = suma+i;
+		}
+		return suma;
 	}
 
 }
